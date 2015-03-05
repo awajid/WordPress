@@ -17,7 +17,7 @@
 define('WP_INSTALLING', true);
 
 /**
- * We are blissfully unaware of anything.
+ * We are blissfully unaware of anything.you
  */
 define('WP_SETUP_CONFIG', true);
 
@@ -151,7 +151,7 @@ switch($step) {
 		setup_config_display_header();
 	?>
 <form method="post" action="setup-config.php?step=2">
-	<p><?php _e( "Below you should enter your database connection details. If you&#8217;re not sure about these, contact your host." ); ?></p>
+	<p><?php _e( "Hey !!! Below you should enter your database connection details. If you&#8217;re not sure about these, contact your host." ); ?></p>
 	<table class="form-table">
 		<tr>
 			<th scope="row"><label for="dbname"><?php _e( 'Database Name' ); ?></label></th>
